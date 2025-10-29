@@ -12,6 +12,7 @@ virtual class rkv_ahbram_base_test extends uvm_test;
   endfunction  
    
    
+   
   function void build_phase(uvm_phase phase);
     super.build_phase(phase);
     rgm = rkv_ahbram_rgm::type_id::create("rgm");
